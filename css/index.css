@@ -56,7 +56,9 @@
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 31.33%;
+  padding-right: 1%;
+  padding-left: 1%;
 }
 
 .row:after {
@@ -92,6 +94,7 @@
 }
 .parallax__layer--back {
   transform: translateZ(-1px);
+  background-image: '../assets/wallpapers/vista.png';
 }
 
 .parallax__group {
@@ -102,6 +105,14 @@
 
 .parallax__layer--deep {
   transform: translateZ(-2px) scale(3);
+}
+
+/*content padding*/
+
+#content {
+  margin-top: 300px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 /*element formatting*/
