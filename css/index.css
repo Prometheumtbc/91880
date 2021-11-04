@@ -1,8 +1,71 @@
 
 
-
+/*import fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Oxygen:wght@300;400;700&display=swap');
+
+
+/*define heading formatting*/
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+  font-family: "Major Mono Display";
+}
+
+.header h1 {
+  font-size: 42pt;
+}
+
+.header h2 { 
+  font-size: 34pt;
+}
+
+/*define navbar format*/
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30pt;
+  font-family: "Major Mono Display";
+}
+
+.nav, .nav--right a {
+  text-align: right;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
+
 
 /* Parallax Scrolling */
 
